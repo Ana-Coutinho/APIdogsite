@@ -1,0 +1,58 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+main {
+    justify-content: center;
+    align-items: center;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    background-color: rgb(102, 85, 85);
+    transform: translate(-50%,-50%);
+    width: 35%;
+    height: 40%;
+    padding: 16px;
+    border-radius: 16px;
+}
+
+#butao {
+    border: 0;
+    background-color: rgb(146, 106, 79);
+    color: white;
+    padding: 16px;
+    border-radius: 15px;
+}
+
+#butao:hover {
+    background-color: rgb(190, 160, 114);
+    transform: scale(1.2);
+    transition: .3s;
+    cursor: pointer;
+}
+
+#abc{
+    color: white;
+    padding-top: 16px;
+    padding-right: 16px;
+    padding-left: 16px;
+}
+
+body {
+    background-blend-mode: darken;
+    background-color: rgb(61, 49, 45);
+    background-image: url(https://static.vecteezy.com/system/resources/previews/006/431/804/non_2x/seamless-dog-pattern-with-paw-prints-bones-hearts-and-balls-cat-foot-texture-pattern-with-doggy-pawprint-and-bones-dog-texture-hand-drawn-illustration-in-doodle-style-on-white-background-vector.jpg);
+}
+
+.fa-bone {
+    color: white;
+    display: flex;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    scale: 1.5;
+}
